@@ -18,4 +18,8 @@ int main() {
 		answer = lcm(answer, i);
 	}
 	cout << answer << '\n';
+
+	return 0;
 }
+
+// 개선사항 : long long 말고, int로 바꿀 것
